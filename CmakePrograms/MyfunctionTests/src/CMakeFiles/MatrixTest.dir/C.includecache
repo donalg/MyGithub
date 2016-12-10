@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../MyLibraryFunctions/C/matrix_def/matrix_def.h
+
+/Users/donalglavin/Documents/Programming/github/CmakePrograms/MyfunctionTests/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+matrix_def.h
+/Users/donalglavin/Documents/Programming/github/CmakePrograms/MyfunctionTests/src/matrix_def.h
+
+/Users/donalglavin/Documents/Programming/github/MyLibraryFunctions/C/matrix_def/matrix_def.c
+stdio.h
+-
+stdlib.h
+-
+matrix_def.h
+/Users/donalglavin/Documents/Programming/github/MyLibraryFunctions/C/matrix_def/matrix_def.h
+
+/Users/donalglavin/Documents/Programming/github/MyLibraryFunctions/C/matrix_def/matrix_def.h
+
