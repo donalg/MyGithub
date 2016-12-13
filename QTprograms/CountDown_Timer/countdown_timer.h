@@ -14,6 +14,7 @@
 #include <QUrl>
 #include <QFont>
 #include <time.h>
+#include <QFileDialog>
 
 namespace Ui {
 class CountDown_Timer;
@@ -36,6 +37,7 @@ private slots:
     void Deincrement();
 
 private:
+
 
     QTimer *timer;
 

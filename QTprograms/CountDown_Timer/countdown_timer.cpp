@@ -15,8 +15,11 @@ CountDown_Timer::CountDown_Timer(QWidget *parent) :
     timer = new QTimer(this);
     QFont setfont( "Arial", 25, QFont::Bold);
 
+    QString fileName = QFileDialog::getOpenFileName(this,
+        tr("Open music file to be played on timer done."), "/Users", tr("Music Files (*.mp3 *.wav *.ogg)"));
+
     AlarmPlayer = new QMediaPlayer(this);
-    AlarmPlayer->setMedia(QUrl::fromLocalFile("/Users/donalglavin/Documents/Programming/Qt GUI programs/PROGRAMS/CountDown_Timer/resources/EpicSaxGuy.mp3"));
+    AlarmPlayer->setMedia(QUrl::fromLocalFile(fileName));
     AlarmPlayer->setVolume(100);
 
     Instructions1 = new QLabel("Please Enter time in following format:", this);
@@ -121,8 +124,7 @@ void CountDown_Timer::Deincrement()
 {
 
 
-        time ( &rawtime );
-
+        time(&rawtime);
         timedifference_val = stoptime_val - ((double)rawtime - (double)starttime_val);
         Num_Hours = trunc(timedifference_val / 3600);
         Num_Minutes = trunc((timedifference_val - (3600*Num_Hours))/60);
