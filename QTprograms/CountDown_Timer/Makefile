@@ -842,6 +842,8 @@ moc_countdown_timer.cpp: /usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Hea
 		/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers/QTextStream \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers/QUrl \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtGui.framework/Headers/QFont \
+		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/QFileDialog \
+		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/qfiledialog.h \
 		countdown_timer.h
 	/usr/local/Cellar/qt5/5.6.1/bin/moc $(DEFINES) -D__APPLE__ -D__GNUC__=4 -D__APPLE_CC__ -I/usr/local/Cellar/qt5/5.6.1/mkspecs/macx-clang -I/Users/donalglavin/Documents/Programming/MyGithub/QTprograms/CountDown_Timer -I/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers -I/usr/local/Cellar/qt5/5.6.1/lib/QtGui.framework/Headers -I/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include -F/usr/local/Cellar/qt5/5.6.1/lib countdown_timer.h -o moc_countdown_timer.cpp
 
@@ -1147,6 +1149,8 @@ main.o: main.cpp countdown_timer.h \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers/QTextStream \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers/QUrl \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtGui.framework/Headers/QFont \
+		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/QFileDialog \
+		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/qfiledialog.h \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/QApplication \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/qapplication.h \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/QDesktopWidget \
@@ -1435,6 +1439,8 @@ countdown_timer.o: countdown_timer.cpp countdown_timer.h \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers/QTextStream \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtCore.framework/Headers/QUrl \
 		/usr/local/Cellar/qt5/5.6.1/lib/QtGui.framework/Headers/QFont \
+		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/QFileDialog \
+		/usr/local/Cellar/qt5/5.6.1/lib/QtWidgets.framework/Headers/qfiledialog.h \
 		ui_countdown_timer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o countdown_timer.o countdown_timer.cpp
 

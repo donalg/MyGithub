@@ -16,7 +16,7 @@ CountDown_Timer::CountDown_Timer(QWidget *parent) :
     QFont setfont( "Arial", 25, QFont::Bold);
 
     QString fileName = QFileDialog::getOpenFileName(this,
-        tr("Open music file to be played on timer done."), "/Users", tr("Music Files (*.mp3 *.wav *.ogg)"));
+        tr("Open music file to be played on timer done."), "/Users", tr("Music Files (*.mp3 *.wav *.ogg *.m4a *.m4b *.pcm *.aiff *.aac *.wma *.flac *.alac *.ra *.ram *.rm *.mid)"));
 
     AlarmPlayer = new QMediaPlayer(this);
     AlarmPlayer->setMedia(QUrl::fromLocalFile(fileName));
