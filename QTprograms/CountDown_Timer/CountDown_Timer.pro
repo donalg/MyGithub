@@ -20,5 +20,4 @@ HEADERS  += countdown_timer.h
 FORMS    += countdown_timer.ui
 
 LIBS += -framework QtMultimedia
-#LIBS += -framework CoreAudio
-#LIBS += -framework AudioToolbox
+

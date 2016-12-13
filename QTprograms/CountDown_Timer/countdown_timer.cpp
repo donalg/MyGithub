@@ -19,8 +19,6 @@ CountDown_Timer::CountDown_Timer(QWidget *parent) :
     AlarmPlayer->setMedia(QUrl::fromLocalFile("/Users/donalglavin/Documents/Programming/Qt GUI programs/PROGRAMS/CountDown_Timer/resources/EpicSaxGuy.mp3"));
     AlarmPlayer->setVolume(100);
 
-
-
     Instructions1 = new QLabel("Please Enter time in following format:", this);
     Instructions2 = new QLabel("[Hours : Minutes : Seconds]", this);
     Hours_Reamining = new QLabel("0", this);
@@ -89,20 +87,29 @@ void CountDown_Timer::Start_Timer()
     minutes = Minutes->toPlainText();
     seconds = Seconds->toPlainText();
     QTextStream TextStreamH(&hours);
-    TextStreamH >> Num_Hours; TextStreamH.reset();
+    TextStreamH >> N_H_temp; TextStreamH.reset();
     QTextStream TextStreamM(&minutes);
-    TextStreamM >> Num_Minutes; TextStreamM.reset();
+    TextStreamM >> N_M_temp; TextStreamM.reset();
     QTextStream TextStreamS(&seconds);
-    TextStreamS >> Num_seconds; TextStreamS.reset();
+    TextStreamS >> N_S_temp; TextStreamS.reset();
 
     Hours_Reamining->setText(hours);
     Minutes_Remaining->setText(minutes);
     Seconds_Remaining->setText(seconds);
 
-    timer->setInterval(1000);
+    timer->setInterval(500);
     timer->start();
 
+    Num_Hours = N_H_temp;
+    Num_Minutes = N_M_temp;
+    Num_Seconds = N_S_temp;
+
+    time(&rawtime);
+    starttime_val = rawtime;
+    stoptime_val = (60*60*Num_Hours) + (60*Num_Minutes) + (Num_Seconds);
+
 }
+
 
 void CountDown_Timer::Stop_Timer()
 {
@@ -113,39 +120,37 @@ void CountDown_Timer::Stop_Timer()
 void CountDown_Timer::Deincrement()
 {
 
-        Num_seconds--;
-        if (Num_seconds < 0 && Num_Minutes > 0)
-        {
-            Num_Minutes--;
-            Num_seconds = 60;
-        }
-        if ( Num_Hours > 0 && Num_seconds < 0)
-        {
-           Num_Hours --;
-           Num_Minutes = 60;
-           Num_seconds = 60;
-        }
 
-        if ((Num_Hours == 0) && (Num_Minutes == 0) && (Num_seconds == 0))
+        time ( &rawtime );
+
+        timedifference_val = stoptime_val - ((double)rawtime - (double)starttime_val);
+        Num_Hours = trunc(timedifference_val / 3600);
+        Num_Minutes = trunc((timedifference_val - (3600*Num_Hours))/60);
+        Num_Seconds = timedifference_val - (3600*Num_Hours) - (60*Num_Minutes);
+        N_H_temp = (qint64) Num_Hours;
+        N_M_temp = (qint64) Num_Minutes;
+        N_S_temp = (qint64) Num_Seconds;
+
+        hours = QString::number(N_H_temp);
+        minutes = QString::number(N_M_temp);
+        seconds = QString::number(N_S_temp);
+
+        Hours_Reamining->setText(hours);
+        Minutes_Remaining->setText(minutes);
+        Seconds_Remaining->setText(seconds);
+
+        if ((Num_Hours == 0) && (Num_Minutes == 0) && (Num_Seconds == 0))
         {
             timer->stop();
             AlarmPlayer->play();
         }
 
-        if ((Num_Hours < 0) || (Num_Minutes < 0) || (Num_seconds < 0))
+        if ((Num_Hours < 0) || (Num_Minutes < 0) || (Num_Seconds < 0))
         {
-            Num_seconds = 0;
+            Num_Seconds = 0;
             Num_Minutes = 0;
             Num_Hours = 0;
             timer->stop();
         }
 
-
-        hours = QString::number(Num_Hours);
-        minutes = QString::number(Num_Minutes);
-        seconds = QString::number(Num_seconds);
-
-        Hours_Reamining->setText(hours);
-        Minutes_Remaining->setText(minutes);
-        Seconds_Remaining->setText(seconds);
 }

@@ -13,6 +13,7 @@
 #include <QtMultimedia/QMediaPlayer>
 #include <QUrl>
 #include <QFont>
+#include <time.h>
 
 namespace Ui {
 class CountDown_Timer;
@@ -34,15 +35,19 @@ private slots:
     void Stop_Timer();
     void Deincrement();
 
-//signals:
-    //void Start_Player();
-    //void Stop_Player();
-
 private:
 
     QTimer *timer;
 
     QMediaPlayer* AlarmPlayer;
+
+    time_t rawtime;
+
+    double starttime_val;
+    double currenttime_val;
+    double stoptime_val;
+    double timedifference_val;
+
 
     QLabel *Instructions1;
     QLabel *Instructions2;
@@ -60,13 +65,12 @@ private:
     QPushButton *Start_Button;
     QPushButton *Stop_Button;
 
-    qint64 Num_Hours;
-    qint64 Num_Minutes;
-    qint64 Num_seconds;
-    qint64 Num_sec_elapsed;
-
-
-    bool stop_pressed = 0;
+    double Num_Hours;
+    double Num_Minutes;
+    double Num_Seconds;
+    qint64 N_H_temp;
+    qint64 N_M_temp;
+    qint64 N_S_temp;
 
 
 };
