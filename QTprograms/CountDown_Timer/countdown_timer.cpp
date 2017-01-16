@@ -96,20 +96,51 @@ void CountDown_Timer::Start_Timer()
     QTextStream TextStreamS(&seconds);
     TextStreamS >> N_S_temp; TextStreamS.reset();
 
-    Hours_Reamining->setText(hours);
-    Minutes_Remaining->setText(minutes);
-    Seconds_Remaining->setText(seconds);
 
-    timer->setInterval(500);
-    timer->start();
+
+
 
     Num_Hours = N_H_temp;
     Num_Minutes = N_M_temp;
     Num_Seconds = N_S_temp;
+    printf("Num_Hours = %d \n", (int)Num_Hours);
+    printf("Num_Minutes = %d \n", (int)Num_Minutes);
+    printf("Num_Seconds = %d \n", (int)Num_Seconds);
 
-    time(&rawtime);
-    starttime_val = rawtime;
-    stoptime_val = (60*60*Num_Hours) + (60*Num_Minutes) + (Num_Seconds);
+
+        if (((int)Num_Hours >= 0) && ((int)Num_Minutes >= 0) && ((int)Num_Seconds >= 0))
+        {
+            //if (((int)Num_Hours > 0) && ((int)Num_Minutes > 0) && ((int)Num_Seconds > 0))
+           // {
+
+                printf("timerstart run\n");
+                // Input is a number: above zero:
+                timer->setInterval(500);
+                timer->start();
+                time(&rawtime);
+                starttime_val = rawtime;
+                stoptime_val = (60*60*Num_Hours) + (60*Num_Minutes) + (Num_Seconds);
+
+           // }
+
+
+        } else {
+
+            Num_Hours = 0;
+            Num_Minutes = 0;
+            Num_Seconds = 0;
+            hours = '0';
+            minutes = '0';
+            seconds = '0';
+        }
+
+    if (((int)Num_Hours > 0) && ((int)Num_Minutes > 0) && ((int)Num_Seconds >  0))
+    {
+        Hours_Reamining->setText(hours);
+        Minutes_Remaining->setText(minutes);
+        Seconds_Remaining->setText(seconds);
+    }
+
 
 }
 
