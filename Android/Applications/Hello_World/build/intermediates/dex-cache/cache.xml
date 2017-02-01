@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5afec04d7da06405acdd78cd1e0c92c6b4ed28d">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_383d4aa18fd28e21c17c1e64b4fe381bcbe9bf86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_4adf694334a05d5345d82efe0768f349e329f686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_a6e670dfed7cada218f431c77a4f47d9cf3bcb1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_edcea2e45d8a17bf59ff3067947f1d52b62eb6a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_2d431e3c9a4e7ef5ce5621b07a3d03873f856047/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8216dbe3b3c6712fee5ec98e88d6f2103978aeb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_0951655686752569d0f66a7653dbd77824a9bf89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_28d2eb52e8590919a1607dea613cff6890833bbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_88bde1b2570ad08ef2c54e54a70bb788ab9646b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_9a5e41d74009be5a189c23b3eb938550498601ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_6fae2cfc99b3b9c55a6384c8305c87d4c5d91b03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fead5a6aebffad02bdb46768dcf14d2b77f463a">
+        <dex dex="/Users/donalglavin/Documents/Programming/MyGithub/Android_Development/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40cb4ced255f72dba8df332844373a24466f1cab/classes.dex" />
+    </item>
+
+</items>
