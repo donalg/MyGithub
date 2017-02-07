@@ -1,0 +1,1 @@
+/opt/local/bin/gcc-mp-6  -fopenmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Hello_MP.dir/src/Hello_MP.c.o  -o Hello_MP  

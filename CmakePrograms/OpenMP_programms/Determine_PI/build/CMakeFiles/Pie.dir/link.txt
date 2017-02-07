@@ -1,0 +1,1 @@
+/opt/local/bin/gcc-mp-6  -fopenmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Pie.dir/src/pi_calc.c.o  -o Pie  

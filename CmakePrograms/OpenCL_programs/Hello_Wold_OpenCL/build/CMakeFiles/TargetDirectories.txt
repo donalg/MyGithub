@@ -1,0 +1,3 @@
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Hello_Wold_OpenCL/build/CMakeFiles/platforms.dir
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Hello_Wold_OpenCL/build/CMakeFiles/devices.dir
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Hello_Wold_OpenCL/build/CMakeFiles/Hello_World_CL.dir

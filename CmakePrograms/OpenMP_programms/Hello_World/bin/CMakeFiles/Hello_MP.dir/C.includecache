@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenMP_programms/Hello_World/src/Hello_MP.c
+stdio.h
+-
+libomp/omp.h
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenMP_programms/Hello_World/src/libomp/omp.h
+

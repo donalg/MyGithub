@@ -1,0 +1,1 @@
+/opt/local/bin/g++-mp-6    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/part2.x.dir/src/main.cpp.o  -o part2.x  libpart2.a -framework GLUT -framework Cocoa -framework AGL -framework OpenGL /opt/local/lib/libGLEW.dylib 

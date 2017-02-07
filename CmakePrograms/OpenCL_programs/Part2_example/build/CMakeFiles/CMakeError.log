@@ -1,0 +1,116 @@
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67764/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_67764.dir/build.make CMakeFiles/cmTC_67764.dir/build
+Building C object CMakeFiles/cmTC_67764.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_67764.dir/CheckSymbolExists.c.o   -c /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_67764.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_67764/fast] Error 2
+
+File /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffbb4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ffbb4.dir/build.make CMakeFiles/cmTC_ffbb4.dir/build
+Building C object CMakeFiles/cmTC_ffbb4.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_ffbb4.dir/CheckSymbolExists.c.o   -c /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ffbb4.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_ffbb4/fast] Error 2
+
+File /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e342/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6e342.dir/build.make CMakeFiles/cmTC_6e342.dir/build
+Building C object CMakeFiles/cmTC_6e342.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_6e342.dir/CheckSymbolExists.c.o   -c /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6e342.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_6e342/fast] Error 2
+
+File /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14ff2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_14ff2.dir/build.make CMakeFiles/cmTC_14ff2.dir/build
+Building C object CMakeFiles/cmTC_14ff2.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_14ff2.dir/CheckSymbolExists.c.o   -c /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_14ff2.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_14ff2/fast] Error 2
+
+File /Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

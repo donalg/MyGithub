@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenMP_programms/Determine_PI2/src/pi_calc2.c
+omp.h
+-
+stdio.h
+-
+stdlib.h
+-
+

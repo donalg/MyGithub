@@ -1,0 +1,2 @@
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/part2.x.dir
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Part2_example/build/CMakeFiles/part2.dir

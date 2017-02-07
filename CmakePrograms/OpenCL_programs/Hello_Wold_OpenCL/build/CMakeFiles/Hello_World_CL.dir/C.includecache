@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/System/Library/Frameworks/OpenCL.framework/Versions/A/Headers/opencl.h
+OpenCL/cl.h
+-
+OpenCL/cl_gl.h
+-
+OpenCL/cl_gl_ext.h
+-
+OpenCL/cl_ext.h
+-
+OpenCL/gcl.h
+-
+
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Hello_Wold_OpenCL/src/hello.c
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+/System/Library/Frameworks/OpenCL.framework/Versions/A/Headers/opencl.h
+-
+

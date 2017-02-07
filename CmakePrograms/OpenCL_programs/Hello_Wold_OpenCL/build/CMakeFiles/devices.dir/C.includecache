@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/OpenCL_programs/Hello_Wold_OpenCL/src/devices.c
+stdio.h
+-
+stdlib.h
+-
+OpenCL/opencl.h
+-
+CL/cl.h
+-
+
