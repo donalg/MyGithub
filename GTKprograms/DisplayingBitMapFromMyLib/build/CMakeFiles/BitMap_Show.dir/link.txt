@@ -1,0 +1,1 @@
+/opt/local/bin/gcc-mp-6   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BitMap_Show.dir/src/DispBitMap.c.o  -o BitMap_Show  

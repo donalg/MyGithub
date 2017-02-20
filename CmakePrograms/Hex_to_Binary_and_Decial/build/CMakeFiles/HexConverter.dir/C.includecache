@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/Hex_to_Binary_and_Decial/src/hex_file_convert.c
+stdio.h
+-
+

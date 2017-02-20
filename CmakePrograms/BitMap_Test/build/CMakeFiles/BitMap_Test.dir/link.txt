@@ -1,0 +1,1 @@
+/opt/local/bin/gcc-mp-6   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BitMap_Test.dir/src/bitmap_test_main.c.o  -o BitMap_Test  

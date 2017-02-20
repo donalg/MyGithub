@@ -1,0 +1,1 @@
+/Users/donalglavin/Documents/Programming/MyGithub/GTKprograms/GTK_LABEL_TEST/build/CMakeFiles/GTK_Label_Test.dir

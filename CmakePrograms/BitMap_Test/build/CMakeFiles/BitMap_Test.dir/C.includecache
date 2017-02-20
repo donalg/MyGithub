@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/BitMap_Test/src/bitmap_test_main.c
+stdio.h
+-
+bitmap.c
+/Users/donalglavin/Documents/Programming/MyGithub/CmakePrograms/BitMap_Test/src/bitmap.c
+
+/Users/donalglavin/Documents/Programming/MyGithub/MyLibraryFunctions/C/bitmap_def/bitmap.c
+bitmap.h
+/Users/donalglavin/Documents/Programming/MyGithub/MyLibraryFunctions/C/bitmap_def/bitmap.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/donalglavin/Documents/Programming/MyGithub/MyLibraryFunctions/C/bitmap_def/bitmap.h
+stdio.h
+-
+stdlib.h
+-
+
